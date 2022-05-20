@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./08-positions.css">
+    <title>Positions</title>
+    <!--add comments  -->
+</head>
+<body>
+  <div class="wrapper">
+      <p>This div has a fixed position</p>
+    <div class="nav"></div>
+    <div class="positioning"></div>
+    <h1>Positioning</h1>
+    <p>The position property specifies the type of positioning method used for an element.</p>
+    <p>The four position values are:</p>
+    <ul>
+        <li><strong>fixed:</strong> this will pin something to a spot and it will stay there as the user scrolls. (ex.nav bars) Fixed position takes elements out of the normal document flow.</li>
+        <li><strong>static:</strong> this is the default setting. It is not affected by top, bottom, left, and right 
+              properties. It is always positioned according to the normal flow of the page. </li>
+        <li><strong>relative:</strong> does not take the element out of the normal doucment flow. Stil appear within
+        its space/div/container, but allows it to be offset a bit from the top, bottom, right, and left. These 
+        properties will move it away from its normal position. Other content will not be adjusted to fit into any gap 
+        left by the element.</li>
+        <li><strong>absolute:</strong> takes element out of the normal doucment flow. If a parent element position is 
+        set to relative, and the child element is set to absolute, the child element's new (0,0) coordinate will be
+        the upper left hand corner of the parent element instead of the whole page.</li>
+    </ul>
+    <p> The <strong>z-index</strong> property allows you to overide the normal starcking order of the page. The default 
+        z-index is 0, adn you can set that value to be positive or negative. An element with a greater z-index will
+        stack in front of an element with the lower z-index. If the two elements have the same z-index, or don't have 
+        one assigned, the element positioned last in the HTML will show up on top. You must have a position assigned in
+        order to assign a z-index.</p>
+  </div>
+    <div class="lotsoftext"></div>
+    <h2>Here is some text that you can scroll adn see the div with a fixed position stay where it is told to.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium nisi, veniam provident quia, soluta officiis facere pariatur illo eveniet laudantium sapiente excepturi voluptas temporibus! Architecto quis sequi possimus omnis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident aliquam blanditiis, debitis excepturi nobis nulla amet atque suscipit. Exercitationem ipsa id molestias totam quod modi? Eos odit veniam ad.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quae tempore quod nam! Rem voluptates consectetur odit quisquam iste sint non nemo, iure ipsum consequuntur voluptatem voluptas assumenda ab id.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos error officia, repellat eum nostrum illum sapiente provident asperiores dolor voluptates necessitatibus reprehenderit animi, quae veniam ut 
+        molestiae quos quaerat mollitia.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque inventore officia cupiditate sed aliquam laboriosam autem reiciendis eaque architecto ratione deserunt animi quam assumenda aliquid, 
+        corporis atque quos corrupti minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident at ipsam eveniet necessitatibus ex perferendis deleniti obcaecati magnam, earum tenetur veritatis. 
+        Nostrum repellat sunt omnis ipsa possimus modi molestiae at.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium doloribus error voluptatem quae! Sint exercitationem voluptates nobis labore porro excepturi maiores tenetur sed beatae, eius rerum quo consequatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur, distinctio ipsum, nemo id praesentium dolores earum commodi ullam 
+    officiis, dicta accusantium hic veniam blanditiis totam eveniet 
+    aperiam repellendus? Eum</p>
+    <>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut exercitationem placeat impedit aperiam, sed quisquam facilis soluta molestias veritatis ipsam distinctio cupiditate asperiores laudantium quae perspiciatis iste maiores nihil nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam est ab maxime temporibus delectus non vitae, 
+        a eveniet quas beatae, fuga illo magnam debitis ad dignissimos rerum rem voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum quidem perferendis, odit esse impedit illo ipsum exercitationem porro eaque 
+        inventore consectetur maiores optio non quibusdam dignissimos iusto. Asperiores, autem?</p>
+</div>
+</body>
+</html>
